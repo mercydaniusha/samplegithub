@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+ <parameter name="browsername" value="firefox"/>
+<parameter name="url" value="https://demo.guru99.com/test/newtours/"/>
+ <parameter name="username" value="username"/>
+  <parameter name="password" value="password"/>
+  <classes>
+  <class name="testngpractice.Sample">
+  </class>
+  </classes>
+
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
